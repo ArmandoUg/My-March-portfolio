@@ -42,14 +42,22 @@ color: chartreuse;
 
 #Home{
 display: flex;
-padding: 150px 10px 10px 220px;
+padding: 150px 10px 120px 220px;
 /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
 right: 5%;
 font-size: 300%;
 align-items: center;
-justify-content: center;
+/* justify-content: center; */
 }
 
 .Me{
     display: inline-flex;
 }
+
+#Project-Header{
+    width: 12%;
+    font-size: 400%;
+    color: navy;
+    border-bottom: 5px solid black;
+}
+
