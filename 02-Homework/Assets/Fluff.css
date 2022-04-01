@@ -35,3 +35,15 @@ li {
 background-color: red;
 color: chartreuse;
 }
+
+#Home{
+padding: 15%;
+right: 5%;
+}
+
+.Me{
+    position: absolute;
+    left: 80%;
+    bottom: 50%
+    
+}
