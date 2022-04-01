@@ -1,15 +1,18 @@
 body{
-background-color: turquoise;
+background-color: white;
 }
 
 logo{
     display: inline-block;
+    position: relative;
+    right:190%;
 }
 li {
     display: inline;
 }
 .topnav{
     display: flex;
+    flex-direction: row-reverse;
     background-color:wheat ;
     overflow: hidden;
     position: fixed;
@@ -19,6 +22,7 @@ li {
 }
 
 .topnav a{
+    display:inline-flex;
     color: red;
     padding: 10px 10px;
     text-decoration: none;
@@ -37,13 +41,15 @@ color: chartreuse;
 }
 
 #Home{
-padding: 15%;
+display: flex;
+padding: 150px 10px 10px 220px;
+/* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
 right: 5%;
+font-size: 300%;
+align-items: center;
+justify-content: center;
 }
 
 .Me{
-    position: absolute;
-    left: 80%;
-    bottom: 50%
-    
+    display: inline-flex;
 }
