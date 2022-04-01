@@ -1,0 +1,13 @@
+logo{
+    display: inline;
+}
+li {
+    display: inline;
+}
+.topnav{
+    background-color: indigo;
+    overflow: hidden;
+    position: fixed;
+    top: -1;
+    width: 100%;
+}
