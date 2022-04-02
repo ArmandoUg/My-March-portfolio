@@ -118,6 +118,39 @@ align-items: center;
 @media screen and (max-width: 1024px ) {
 #Home{
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
+    flex-shrink: 1 0 auto ;
+}
+
+.screenshot{
+    left:15%
+}
+
+.links
+
+.Skills-List{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-shrink:0 ;
+}
+}
+
+@media screen and (max-width: 670px) {
+    image{
+        width: 200%;
+    }
+#Home{
+font-size: 200%;
+flex-wrap: wrap;
+padding:150px 0px 0px 0px;
+}
+.Me{
+    flex-shrink: 1 0 auto ;
+ }
+.Skills-List{
+    display: flex;
+    padding:100px 0px 0px 0px;
 }
 }
