@@ -4,8 +4,8 @@ background-color: white;
 
 logo{
     display: inline-block;
-    position: relative;
-    right:190%;
+    position: fixed;
+    right:70%;
 }
 li {
     display: inline;
@@ -113,4 +113,11 @@ align-items: center;
     display: inline-flex;
     padding: 100px 0px 0px 200px;
     justify-content: space-evenly
+}
+
+@media screen and (max-width: 1024px ) {
+#Home{
+    display: flex;
+    flex-wrap: wrap;
+}
 }
