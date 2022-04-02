@@ -109,3 +109,15 @@ align-items: center;
     border-bottom: 5px solid black;
 }
 
+.skills-list{
+    display: flex;
+    padding: 100px 0px 0px 100px;
+}
+
+.HTML{
+display: inline-flex;
+}
+
+.CSS{
+display: inline-flex;
+}
