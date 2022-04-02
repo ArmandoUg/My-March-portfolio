@@ -115,6 +115,11 @@ align-items: center;
     justify-content: space-evenly
 }
 
+footer{
+    text-align: center;
+    padding-top: 20px;
+}
+
 @media screen and (max-width: 1024px ) {
 #Home{
     display: flex;
@@ -127,7 +132,9 @@ align-items: center;
     left:15%
 }
 
-.links
+.links{
+    width:25%
+}
 
 .Skills-List{
     display: flex;
@@ -154,3 +161,17 @@ padding:150px 0px 0px 0px;
     padding:100px 0px 0px 0px;
 }
 }
+
+@media screen and (max-width:321px) {
+    #Home{
+        padding-left: 15px;
+    }
+
+    .projects-list{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        left:-3%
+    }
+}
+    
