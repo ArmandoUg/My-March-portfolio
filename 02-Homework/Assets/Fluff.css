@@ -88,7 +88,7 @@ align-items: center;
     display: inline-flex;
     padding: 0px 0px 0px 0px;
     position: relative;
-    left: 0%;
+    left: 32%;
 }
 
 .links{
@@ -109,15 +109,8 @@ align-items: center;
     border-bottom: 5px solid black;
 }
 
-.skills-list{
-    display: flex;
-    padding: 100px 0px 0px 100px;
-}
-
-.HTML{
-display: inline-flex;
-}
-
-.CSS{
-display: inline-flex;
+.Skills-List{
+    display: inline-flex;
+    padding: 100px 0px 0px 200px;
+    justify-content: space-evenly
 }
