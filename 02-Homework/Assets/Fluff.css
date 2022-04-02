@@ -54,10 +54,44 @@ align-items: center;
     display: inline-flex;
 }
 
-#Project-Header{
+#projects{
+    display: block;
+    position: relative;
+    left: 10%;
+    padding: 0px 10px 0px 15px;
     width: 12%;
     font-size: 400%;
     color: navy;
     border-bottom: 5px solid black;
 }
 
+.projects-list{
+    display: grid;
+    position: relative;
+    left: 20%;
+    padding: 100px 0px 0px 15px;
+    width: 30%;
+    border-bottom:2px solid gray ;
+}
+
+.info-title{
+    font-size: 300%;
+    padding: 0px 0px 40px 0px;
+}
+
+.info{
+    font-size: 150%;
+}
+
+.links{
+    display: flex;
+    padding: 120px;
+}
+
+.glink{
+display:inline-flex
+}
+
+.sitelink{
+    display: inline-flex;
+}
