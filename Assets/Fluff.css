@@ -19,6 +19,7 @@ li {
     top: -1;
     width: 100%;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    z-index: 1;
 }
 
 .topnav a{
@@ -52,6 +53,7 @@ align-items: center;
 
 .Me{
     display: inline-flex;
+    padding-left: 2%;
 }
 
 #projects{
@@ -76,12 +78,19 @@ align-items: center;
 
 .info-title{
     font-size: 300%;
-    padding: 0px 0px 40px 0px;
+    padding: 10px 0px 40px 0px;
+}
+
+.info-title2{
+    font-size: 300%;
+    padding: 10px 0px 40px 0px;
+    border-top: solid;
 }
 
 .info{
      display: flex;
     font-size: 150%;
+    padding-bottom: 5%;
 }
 
 .screenshot{
@@ -90,6 +99,11 @@ align-items: center;
     position: relative;
     left: 32%;
 }
+
+.sscreenshot{
+    max-width: 100%;
+    height: auto;
+ }
 
 .links{
     display: inline-flex;
@@ -112,7 +126,8 @@ align-items: center;
 .Skills-List{
     display: inline-flex;
     padding: 100px 0px 0px 200px;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 footer{
